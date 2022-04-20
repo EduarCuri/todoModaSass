@@ -1,0 +1,211 @@
+@import '../utilities/variables';
+
+/*ESTILOS EN MOBILE*/
+
+/*ESTILOS PARA LA SECCION MULTIMEDIA*/
+.seccionMultimedia {
+    article {
+        color: white;
+        h2 {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 25px;
+        }
+        p {
+            text-align: center;
+        }
+    }
+}
+
+.videoMultimedia {
+    /*border: 1px solid yellow;*/
+    width: 100%;
+    height: 315px;
+    overflow: hidden;
+    iframe {
+        width: 100%;
+    }
+}
+
+/*ESTILOS PARA LA SECCION TENDENCIA*/
+
+.seccionTendencia {
+    padding: 20px 0;
+    article {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        align-items: center;
+        h2 {
+            text-align: center;
+            padding: 10px 0;
+            font-size: 25px;
+        }
+        p {
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+}
+
+.cajaImagenTendencia {
+    /*border: 1px solid blue*/
+    width: 100%;
+    overflow: hidden;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    img {
+        width: 100%;
+    }
+}
+
+.botonConocer {
+    /*border: 1px solid yellow;*/
+    padding: 10px 0;
+    margin-top: 10px;
+    transition: 0.5s;
+    &:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: $shadow;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+        background-color: $tituloPrincipal;
+        padding: 10px;
+        border-radius: 4px;
+    }
+}
+
+/*ESTILOS PARA SECCION CARDS*/
+
+.seccionCards {
+    /*border: 1px solid red;*/
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .card {
+        /*border: 1px solid orange;*/
+        width: 100%;
+        height: 510px;
+        background-color: $fondoCard;
+        border-radius: 4px;
+        margin-bottom: 20px;
+        box-shadow: $shadowCard;
+        transition: all 0.7s;
+        &:hover {
+            transform: translate(-5px, -5px);
+            box-shadow: 5px 3px 6px rgba(255, 255, 255, 0.329);
+        }
+        .imagenCard {
+            width: 100%;
+            height: 310px;
+            overflow: hidden;
+            img {
+                width: 100%;
+                border-radius: 4px 4px 4px 4px;
+            }
+        }
+        .contenidoCard {
+            color: white;
+            height: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            h2 {
+                font-size: 25px;
+            }
+            p {
+                padding-left: 10px;
+            }
+            a {
+                text-decoration: none;
+                color: white;
+                padding: 8px;
+                border-radius: 4px;
+                background-color: $tituloPrincipal;
+                transition: all 0.5s;
+                &:hover {
+                    transform: translate(-3px, -2px);
+                    box-shadow: $shadow;
+                }
+            }
+        }
+    }
+}
+
+/*ESTILOS PARA INDEX TABLET*/
+
+@media all and (min-width: 481px) {
+    
+    .seccionMultimedia {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        .videoMultimedia {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        article {
+            padding: 0 5px;
+        }
+    }
+
+    .seccionTendencia {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        article {
+            padding: 0 10px;
+        }
+    }
+
+    .card {
+        width: 280px;
+    }
+
+    .seccionCards {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        gap: 20px;
+    }
+
+
+}
+
+/*ESTILOS PARA INDEX DESKTOP*/
+
+@media all and (min-width: 1025px) {
+
+    .seccionMultimedia {
+        padding-top: 80px;
+        grid-template-columns: 50% 50%;
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding: 0 20px;
+        }
+    }
+
+    .seccionTendencia {
+        article {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+            padding: 0 20px;
+        }
+    }
+
+    .seccionCards {
+        grid-template-columns: repeat(4, auto);
+        justify-content: space-between;
+    }
+
+
+}
+
