@@ -72,7 +72,7 @@
     a {
         text-decoration: none;
         color: white;
-        background-color: $tituloPrincipal;
+        background-color: $boton;
         padding: 10px;
         border-radius: 4px;
     }
@@ -127,7 +127,7 @@
                 color: white;
                 padding: 8px;
                 border-radius: 4px;
-                background-color: $tituloPrincipal;
+                background-color: $boton;
                 transition: all 0.5s;
                 &:hover {
                     transform: translate(-3px, -2px);

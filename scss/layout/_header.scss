@@ -1,8 +1,13 @@
 @import '../utilities/variables';
 
 /*HEADER PARA LA VERSION MOBILE*/
+
+header {
+    width: 85%;
+}
+
+
 .containerHeader {
-    border: 1px solid red;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -51,7 +56,14 @@
 /*HEADER PARA LA VERSION TABLET*/
 
 @media all and (min-width:481px) {
+
+    header {
+        width: 85%;
+    }
+
     .containerHeader {
+        /*border: 1px solid red;*/
+        width: 100%;
         border-bottom: $lineaDivisoria;
         padding-bottom: 10px;
     }
@@ -81,7 +93,7 @@
     }
 
     .containerHeader {
-        /*border: 1px soid red;*/
+        /*border: 1px solid red;*/
         width: 87%;
         display: grid;
         grid-template-columns: 30% 70%;
