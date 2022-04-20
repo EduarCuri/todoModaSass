@@ -52,6 +52,13 @@
 
 @media all and (min-width: 481px) {
 
+    .descripcionConocenos {
+        h2 {
+            font-size: 40px;
+            font-family: $tituloPrincipal;
+        }
+    }
+
     .imagenesReferencialesConocenos {
         display: grid;
         grid-template-columns: auto auto;
@@ -73,9 +80,14 @@
 @media all and (min-width: 1025px) {
 
     .imagenesReferencialesConocenos {
+        // border: 1px solid red;
         display: grid;
         grid-template-columns: repeat(4, auto);
         justify-content: space-between;
+        Article {
+            width: 200px;
+            height: 240px;
+        }
     }
 
 
