@@ -17,14 +17,10 @@ header {
         /*border 1px solid green*/
         text-align: center;
         padding: 10px 0;
-        color: white;
-        font-family: $tituloPrincipal;
-        font-size: 30px;
+        @include estilosPrincipales;
         a {
             text-decoration: none;
-            color: white;
-            font-family: $tituloPrincipal;
-            font-size: 30px;
+            @include estilosPrincipales;
         }
     }
     .nav {
@@ -33,13 +29,13 @@ header {
         grid-template-columns: auto auto;
         gap: 15px;
         a {
-            /*border: 1px solid red*/
+            /*border: 1px solid red;*/
             text-decoration: none;
             text-align: center;
             padding: 8px;
             border-radius: 4px;
             color: white;
-            background-color: $boton;
+            background-color: map-get($map: $boton, $key: bg-color);
             cursor: pointer;
             transition: all 0.5s;
             &:hover {
@@ -105,7 +101,7 @@ header {
             justify-content: space-around;
             align-items: center;
             a {
-                padding: 11px;
+                padding: 9px;
                 transition: all 0.5s;
                 &:hover {
                     transform: translate(-2px, -3px);

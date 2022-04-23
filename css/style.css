@@ -27,6 +27,14 @@ main {
     padding-top: 80px;
     width: 85%; } }
 
+/*
+    EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
+    DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
+*/
+/*
+    EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
+    DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
+*/
 /*HEADER PARA LA VERSION MOBILE*/
 header {
   width: 85%; }
@@ -55,7 +63,7 @@ header {
     grid-template-columns: auto auto;
     gap: 15px; }
     .containerHeader .nav a {
-      /*border: 1px solid red*/
+      /*border: 1px solid red;*/
       text-decoration: none;
       text-align: center;
       padding: 8px;
@@ -107,12 +115,16 @@ header {
       justify-content: space-around;
       align-items: center; }
       .containerHeader .nav a {
-        padding: 11px;
+        padding: 9px;
         transition: all 0.5s; }
         .containerHeader .nav a:hover {
           transform: translate(-2px, -3px);
           box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.329); } }
 
+/*
+    EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
+    DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
+*/
 /*ESTILOS EN MOBILE*/
 /*ESTILOS PARA LA SECCION MULTIMEDIA*/
 .seccionMultimedia article {
@@ -171,7 +183,7 @@ header {
     color: white;
     background-color: rgba(250, 1, 1, 0.671);
     padding: 10px;
-    border-radius: 4px; }
+    border-radius: 5px; }
 
 /*ESTILOS PARA SECCION CARDS*/
 .seccionCards {
@@ -215,7 +227,7 @@ header {
         text-decoration: none;
         color: white;
         padding: 5px;
-        border-radius: 4px;
+        border-radius: 5px;
         background-color: rgba(250, 1, 1, 0.671);
         transition: all 0.5s; }
         .seccionCards .card .contenidoCard a:hover {
@@ -265,6 +277,10 @@ header {
     grid-template-columns: repeat(4, auto);
     justify-content: space-between; } }
 
+/*
+    EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
+    DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
+*/
 /*ESTILOS PARA CONOCENOS MOBILE*/
 /*ESTILOS PARA BANNER CONOCENOS*/
 .bannerConocenos {
@@ -326,6 +342,10 @@ header {
       width: 200px;
       height: 240px; } }
 
+/*
+    EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
+    DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
+*/
 /*ESTIOS PARA LA SECCION HOMBRE Y MUJER MOBILE*/
 .tituloRopa {
   color: white;
@@ -348,6 +368,10 @@ header {
   .seccionCard {
     grid-template-columns: repeat(4, auto); } }
 
+/*
+    EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
+    DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
+*/
 /*ESTILOS PARA LA SECCINO CONTACTO MOBILE*/
 .informacionContacto h1 {
   color: white;
@@ -369,15 +393,14 @@ header {
     font-size: 25px;
     text-align: center;
     margin: 15px 0; }
-  .formulario input {
+  .formulario input, .formulario textarea {
     width: 90%;
     border-radius: 5px;
     height: 35px;
     padding-left: 5px; }
   .formulario textarea {
-    width: 90%;
-    border-radius: 5px;
-    margin-bottom: 15px; }
+    height: 180px;
+    margin-bottom: 20px; }
   .formulario .boton {
     margin-bottom: 15px;
     color: white;
