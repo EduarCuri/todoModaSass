@@ -31,10 +31,22 @@ main {
     EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
     DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
 */
+.formulario textarea {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 5px; }
+
 /*
     EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
     DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
 */
+.formulario textarea {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 5px; }
+
 /*HEADER PARA LA VERSION MOBILE*/
 header {
   width: 85%; }
@@ -125,6 +137,12 @@ header {
     EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
     DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
 */
+.formulario textarea {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 5px; }
+
 /*ESTILOS EN MOBILE*/
 /*ESTILOS PARA LA SECCION MULTIMEDIA*/
 .seccionMultimedia article {
@@ -281,6 +299,12 @@ header {
     EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
     DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
 */
+.formulario textarea {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 5px; }
+
 /*ESTILOS PARA CONOCENOS MOBILE*/
 /*ESTILOS PARA BANNER CONOCENOS*/
 .bannerConocenos {
@@ -346,6 +370,12 @@ header {
     EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
     DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
 */
+.formulario textarea {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 5px; }
+
 /*ESTIOS PARA LA SECCION HOMBRE Y MUJER MOBILE*/
 .tituloRopa {
   color: white;
@@ -372,6 +402,12 @@ header {
     EL EXTEND FUE INCLUIDO EN EL TEXTAREA DE LA ZONA
     DE CONTACTO PARA HEREDAR LAS PROPIEDADES DE LOS INPUT
 */
+.formulario textarea {
+  width: 90%;
+  border-radius: 5px;
+  height: 35px;
+  padding-left: 5px; }
+
 /*ESTILOS PARA LA SECCINO CONTACTO MOBILE*/
 .informacionContacto h1 {
   color: white;
@@ -379,7 +415,7 @@ header {
   text-align: center;
   font-size: 30px;
   font-family: "Playfal Display", serif;
-  font-size: 30px; }
+  font-size: 40px; }
 
 .formulario {
   display: flex;
@@ -393,7 +429,7 @@ header {
     font-size: 25px;
     text-align: center;
     margin: 15px 0; }
-  .formulario input, .formulario textarea {
+  .formulario input {
     width: 90%;
     border-radius: 5px;
     height: 35px;

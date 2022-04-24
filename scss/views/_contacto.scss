@@ -9,7 +9,7 @@
         text-align: center;
         font-size: 30px;
         font-family: $tituloPrincipal;
-        font-size: 30px;
+        font-size: 40px;
     }
 }
 
@@ -33,10 +33,9 @@
         padding-left: 5px;
     }
     textarea {
-        // aplicando extend para referenciar las propiedades de los inputs
-        @extend input;
         height: 180px;
         margin-bottom: 20px;
+        @extend %textarea;
     }
     .boton {
         margin-bottom: 15px;
