@@ -16,7 +16,6 @@ main {
   width: 85%; }
 
 .container {
-  /*border: 1px solid blue*/
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -58,7 +57,6 @@ header {
   padding-bottom: 10px;
   border-bottom: rgba(255, 255, 255, 0.356); }
   .containerHeader .titulo {
-    /*border 1px solid green*/
     text-align: center;
     padding: 10px 0;
     color: white;
@@ -70,12 +68,10 @@ header {
       font-family: "Playfal Display", serif;
       font-size: 30px; }
   .containerHeader .nav {
-    /*border: 1px solid blue*/
     display: grid;
     grid-template-columns: auto auto;
     gap: 15px; }
     .containerHeader .nav a {
-      /*border: 1px solid red;*/
       text-decoration: none;
       text-align: center;
       padding: 8px;
@@ -95,7 +91,6 @@ header {
   header {
     width: 85%; }
   .containerHeader {
-    /*border: 1px solid red;*/
     width: 100%;
     border-bottom: rgba(255, 255, 255, 0.356);
     padding-bottom: 10px; }
@@ -106,7 +101,6 @@ header {
 /*ESTILOS PARA LA VERSION DESKTOP*/
 @media all and (min-width: 1025px) {
   header {
-    /*border: 1px solid green;*/
     width: 100%;
     height: 70px;
     position: fixed;
@@ -115,7 +109,6 @@ header {
     z-index: 10;
     align-content: center; }
   .containerHeader {
-    /*border: 1px solid red;*/
     width: 87%;
     display: grid;
     grid-template-columns: 30% 70%;
@@ -155,7 +148,6 @@ header {
     text-align: center; }
 
 .videoMultimedia {
-  /*border: 1px solid yellow;*/
   width: 100%;
   height: 315px;
   overflow: hidden; }
@@ -179,7 +171,6 @@ header {
       padding: 10px 0; }
 
 .cajaImagenTendencia {
-  /*border: 1px solid blue*/
   width: 100%;
   overflow: hidden;
   height: 350px;
@@ -189,7 +180,6 @@ header {
     width: 100%; }
 
 .botonConocer {
-  /*border: 1px solid yellow;*/
   padding: 10px 0;
   margin-top: 10px;
   transition: 0.5s; }
@@ -205,14 +195,12 @@ header {
 
 /*ESTILOS PARA SECCION CARDS*/
 .seccionCards {
-  /*border: 1px solid red;*/
   padding: 10px 0;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center; }
   .seccionCards .card {
-    /*border: 1px solid orange;*/
     width: 100%;
     height: 510px;
     background-color: rgba(102, 100, 100, 0.418);
